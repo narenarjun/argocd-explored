@@ -12,7 +12,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /
+        path: /woo/ # let's see if this pathprefix making any issues 
         backend:
           serviceName: superservice
           servicePort: 80
