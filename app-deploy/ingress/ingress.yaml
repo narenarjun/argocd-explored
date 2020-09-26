@@ -12,7 +12,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /foobar
+        path: /
         backend:
           serviceName: superservice
           servicePort: 80
