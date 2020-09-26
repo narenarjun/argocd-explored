@@ -2,7 +2,8 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: yourapp-ingress
-  namespace: default
+  # namespace: default 
+  # when using gitops, namespace shouldn't be mentioned in the ingress yaml file
   annotations:
     kubernetes.io/ingress.class: traefik
 spec:
