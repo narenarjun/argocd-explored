@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: expressnode
-        image: quay.io/narendev/node-express-hello:v2.0
+        image: quay.io/narendev/node-graphql
         imagePullPolicy: Always
         resources:
           requests:
@@ -31,4 +31,4 @@ spec:
             memory: "128Mi"
             cpu: "500m"
         ports:
-        - containerPort: 8000
+        - containerPort: 4000
