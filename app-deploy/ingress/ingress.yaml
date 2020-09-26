@@ -11,7 +11,7 @@ spec:
   - host: eab38edc-4193-4c4c-aad8-56d3de4bdd78.k8s.civo.com
     http:
       paths:
-      - path: /hello
+      - path: /
         backend:
           serviceName: superservice
           servicePort: 80
