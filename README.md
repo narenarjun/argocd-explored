@@ -18,3 +18,8 @@ now, let's install the argoCD resources in the argocd namespace.
 kubectl apply -f ./install/agro-install.yaml -n argocd
 ```
 
+ArgoCD is configured to target the namespace `app-deploy`, so we must have this namespace already in existance.
+
+```
+kubectl create -n app-deploy
+```
